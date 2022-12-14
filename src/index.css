@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: aqua; */
+  /* background-image: url('https://images.hdqwalls.com/download/abstract-blue-texture-4k-cl-2560x1440.jpg'); */
+  background-size:cover;
+  /* background-image: url('https://images.hdqwalls.com/wallpapers/thumb/linux-nitros-light-6k.jpg'); */
+  background-color: #eeeeef;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face{
+
+  font-family:aquatico;
+
+  font-style:normal;
+
+  font-weight:400;
+
+  src:local('Aquatico'),
+
+  url('./assests/Aquatico-Regular.woff') format('woff')
+
+}
+
+.css-heg063-MuiTabs-flexContainer{
+  justify-content: center;
+}
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 40px;
+  background-color: #f1f1b3;
+} */
